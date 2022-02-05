@@ -5,11 +5,18 @@
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
-                    "samples": []
+                    "samples": [
+                        "pause",
+                        "nevermind",
+                        "cancel",
+                        "stop"
+                    ]
                 },
                 {
                     "name": "AMAZON.HelpIntent",
-                    "samples": []
+                    "samples": [
+                        "help"
+                    ]
                 },
                 {
                     "name": "AMAZON.StopIntent",
@@ -27,8 +34,6 @@
                     "name": "StatusIntent",
                     "slots": [],
                     "samples": [
-                        "what is the status",
-                        "how is the status",
                         "Does the device need an upgrade",
                         "Is the hardware working",
                         "Is the hardware okay",
@@ -43,28 +48,19 @@
                     "name": "BeachIntent",
                     "slots": [],
                     "samples": [
-                        "what is the weather",
-                        "what about the weather on the beach",
-                        "what is the weather like on the beach",
-                        "what is the weather at the beach",
-                        "tell about the weather on the beach",
-                        "what is the weather forecast for the beach",
-                        "can you tell me about the weather on the beach",
-                        "give about the weather on the beach",
-                        "can you tell me about the weather at the beach",
-                        "tell about the weather at the beach",
-                        "show about the weather at the beach",
-                        "what about the weather out there",
-                        "what is the weather on the beach",
-                        "what is the weather out there",
-                        "tell me about the weather at the beach",
-                        "what does it look like",
-                        "What about the weather at the beach",
-                        "What does the weather look like",
-                        "How's the weather at the beach",
-                        "What's the weather at the beach",
-                        "How's the weather",
-                        "What's the weather"
+                        "what is the weather looking like for the pie",
+                        "what has the pie encountered",
+                        "what has the pie discovered",
+                        "what does the pie detect today",
+                        "what has the pie detected",
+                        "which kind of waves is the pie detecting",
+                        "what weather is the pie detecting",
+                        "what is the pie detecting",
+                        "what does the pie detect",
+                        "how does it look",
+                        "what is it like",
+                        "what does the weather look like",
+                        "what does it look like"
                     ]
                 }
             ],

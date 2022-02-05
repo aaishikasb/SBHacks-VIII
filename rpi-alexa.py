@@ -40,7 +40,17 @@ def Status_Intent():
 @ask.intent('AMAZON.HelpIntent')
 def help():
     speech_text = 'You can ask me about the weather at Campus Point or the status of the apparatus!'
-    return question(speech_text).reprompt(speech_text).simple_card('HelloWorld', speech_text)
+    return question(speech_text).reprompt(speech_text).simple_card(speech_text)
+
+@ask.intent('AMAZON.StopIntent')
+def stop():
+    speech_text = 'Goodbye!'
+    return statement(speech_text).simple_card(speech_text)
+
+@ask.intent('AMAZON.CancelIntent')
+def cancel():
+    speech_text = 'Goodbye!'
+    return statement(speech_text).simple_card(speech_text)
 
 
 @ask.session_ended
