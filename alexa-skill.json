@@ -8,8 +8,7 @@
                     "samples": [
                         "pause",
                         "nevermind",
-                        "cancel",
-                        "stop"
+                        "cancel"
                     ]
                 },
                 {
@@ -20,7 +19,10 @@
                 },
                 {
                     "name": "AMAZON.StopIntent",
-                    "samples": []
+                    "samples": [
+                        "exit",
+                        "stop"
+                    ]
                 },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
@@ -34,6 +36,11 @@
                     "name": "StatusIntent",
                     "slots": [],
                     "samples": [
+                        "is the equipment okay",
+                        "is the hardware all right",
+                        "what is the status of the pie",
+                        "what is the status of the apparatus",
+                        "what is the status of the hardware",
                         "Does the device need an upgrade",
                         "Is the hardware working",
                         "Is the hardware okay",
@@ -48,6 +55,18 @@
                     "name": "BeachIntent",
                     "slots": [],
                     "samples": [
+                        "what's the weather forecast for the pie",
+                        "how is the weather",
+                        "what does the weather look like for the pie",
+                        "can you tell me what the current weather is like",
+                        "whats going on with the pie",
+                        "what is the weather forecast for the pie",
+                        "which kind of waves is the pie discovered",
+                        "what's happening to the weather with pie",
+                        "how is the weather like",
+                        "what is the weather like",
+                        "how is the weather looking like",
+                        "what is the weather",
                         "what is the weather looking like for the pie",
                         "what has the pie encountered",
                         "what has the pie discovered",
