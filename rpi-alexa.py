@@ -17,16 +17,12 @@ def launch():
 
 @ask.intent('BeachIntent')
 def Beach_Intent():
-    ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
-    ser.flush()
+    ser = serial.Serial('/dev/ttyACM1', 9600)
+    ser_data = ser.readline().decode('utf-8').rstrip()
 
-    while True:
-        if ser.in_waiting > 0:
-            ser_data = ser.readline().decode('utf-8').rstrip()
-
-    if ser_data < 350:
+    if int(ser_data) < 350:
         return statement('Be careful, the weather and waves at Campus Point look concerning.')
-    elif ser_data > 350:
+    elif int(ser_data) > 350:
         return statement('Weather and waves at Campus Point are looking good!')
     else:
         return statement('Sorry, data could not be processed.')
