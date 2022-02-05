@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "sand pie",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StatusIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is the status",
+                        "how is the status",
+                        "Does the device need an upgrade",
+                        "Is the hardware working",
+                        "Is the hardware okay",
+                        "Is the apparatus working",
+                        "Is the appartus okay",
+                        "Is the pie active",
+                        "Is the device okay",
+                        "Is the device working"
+                    ]
+                },
+                {
+                    "name": "BeachIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is the weather",
+                        "what about the weather on the beach",
+                        "what is the weather like on the beach",
+                        "what is the weather at the beach",
+                        "tell about the weather on the beach",
+                        "what is the weather forecast for the beach",
+                        "can you tell me about the weather on the beach",
+                        "give about the weather on the beach",
+                        "can you tell me about the weather at the beach",
+                        "tell about the weather at the beach",
+                        "show about the weather at the beach",
+                        "what about the weather out there",
+                        "what is the weather on the beach",
+                        "what is the weather out there",
+                        "tell me about the weather at the beach",
+                        "what does it look like",
+                        "What about the weather at the beach",
+                        "What does the weather look like",
+                        "How's the weather at the beach",
+                        "What's the weather at the beach",
+                        "How's the weather",
+                        "What's the weather"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
