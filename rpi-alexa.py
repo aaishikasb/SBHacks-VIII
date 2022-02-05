@@ -1,6 +1,5 @@
 import logging
 import os
-from unittest import FunctionTestCase
 import serial
 from twilio.rest import Client
 
@@ -26,7 +25,7 @@ def bad_message():
 
 def good_message():
         client.messages.create(
-            to='+917827794110',
+            to='whatsapp:+917827794110',
             from_='whatsapp:+17752568757',
             body="The weather and waves at Campus Point are looking good! If you're planning on going, you'll have a great time!")
 
