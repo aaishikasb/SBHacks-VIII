@@ -61,7 +61,7 @@ We have tried our best to cover the setting up of the hardware end of the projec
 
 ## What's next for Sand Pie ⏭
  - Though we do not put up in California, if we do get the opportunity, we'll interface the whole thing with actual ultrasonic and thermal sensors and test our Alexa skill on a beach. We'd love to take the idea forward and will continue to tweak with the project to add new upgrades every now and then. Loved building the whole thing from scratch!
-
+ - The ultrasonic sensor used in the TinkerCAD simulation is a emulation of `MA40H1S-R` ultrasonicsensor which is operable in a higher temperature range and produces accurate results on a larger range.
 ## Contributors 🫂
 
 We totally did not break an Arduino Board. Sand Pi was coded with love by these folks:
